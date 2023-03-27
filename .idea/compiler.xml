@@ -9,8 +9,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="integration_continue" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="integration_continue" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
